@@ -6,14 +6,14 @@ import { AppComponent } from './app.component';
 import { ThunghiemComponent } from './thunghiem/thunghiem.component';
 import { MenuComponent } from './menu/menu.component';
 import { FormsModule } from '@angular/forms';
-import { DatePipe, CommonModule } from '@angular/common';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     ThunghiemComponent,
     MenuComponent,
-    DatePipe
+    
   ],
   imports: [
     BrowserModule,
